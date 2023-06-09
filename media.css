@@ -1,0 +1,42 @@
+@media (max-width:700px) {
+
+
+
+    .container {
+        width: 100%;
+        margin:auto;
+    }
+    
+    header {
+       
+        position: unset;
+    }
+    
+    ul.navigation {
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        top: 45px;
+        right: -255px;
+        background: #8ea98e;
+        transition:0.3s;
+    }
+    
+    ul.navigation li {
+        float: none;
+    }
+    
+    .bars {
+        position: fixed;
+        top: 19px;
+        right: 10px;
+        font-size: 28px;
+       
+    }
+     .from{
+         right:0px !important;
+     }
+   
+   
+        
+    }

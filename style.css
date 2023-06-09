@@ -1,0 +1,2520 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700&family=Work+Sans:wght@100&display=swap');
+
+body{
+
+    margin:0;
+    padding:0;
+  
+}
+
+
+
+.container {
+    width: 1365px;
+    padding:10px;
+    margin:10px;
+    margin: auto;
+}
+
+
+div#logo {
+    width: 88px;
+    float: left;
+    padding: 9px 53px 10px 73px;
+}
+
+div#logo img {
+    width: 100%;
+}
+
+div#navi_right {
+    float: right;
+    margin: -11px;
+    padding: 0px;
+}
+
+ul.navigation {
+    list-style: none;
+    float: left;
+    padding: 0px;
+}
+
+ul.navigation li {
+    float: left;
+    padding: 12px 14px 6px 21px;
+}
+
+div#shoping {
+    float: left;
+    padding: 30px 90px 7px 10px;
+    font-size: 19px;
+    color: orange;
+}
+
+ul.navigation li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+    font-family: revert;
+}
+.header {
+    overflow: hidden;
+    background: #efe5e347;
+    border-bottom: 1px solid #cfc4c43b;
+    padding: 0;
+    margin: -10px;
+}
+
+div#mfirst_slider {
+    background: #f4e6e470;
+    width: 100%;
+    overflow: hidden;
+    padding: 93px 39px;
+}
+
+div#mleft_items {
+    width: 50%;
+    float: left;
+    padding: 22px 40px;
+}
+
+div#mleft_items h3 {
+    font-size: 12px;
+    line-height: 0.3;
+    margin: 10px;
+    font-weight: 600;
+    font-family: arial black;
+    letter-spacing: 1px;
+}
+
+div#mleft_items h2 {
+    font-size: 44px;
+    padding: 0;
+    margin: 3px;
+    font-family: arial;
+    color: #110d0dbf;
+}
+
+div#mleft_items h1 {
+    margin: 3px;
+    color: #3e8586;
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+span.first_span {
+    font-size: 15px;
+    color: #a39898;
+    text-transform: capitalize;
+}
+div#mleft_items_btn {
+    padding: 18px;
+}
+
+div#mleft_items_btn button {
+    padding: 10px 20px;
+    background: #dec2a4;
+    border: none;
+    border-radius: 13px;
+    font-size: 13px;
+    color: #3e8586;
+    font-weight: 700;
+    border: 1px solid #e8e2e2;
+}
+ul.navigation li a:hover {
+    color: #31a5a7;
+    transition: 0.2s;
+    border-bottom: 3px solid #3e8586;
+}
+.hove_to{
+
+    color: #3e8586 !important;
+    border-bottom: 2px solid  #3e8586 !important;
+}
+div#mleft_items_btn button:hover {
+    background: #d0a679;
+    font-size: 15px;
+    transition: 0.2s;
+}
+.mnsection {
+    background: #f4e6e470;
+}
+.mnheader {
+    background: #efe5e347;
+}
+
+header{
+
+    position:fixed;
+      background-color:white;
+    
+}
+
+.droping_slider {
+    overflow: hidden;
+    width: 95%;
+    margin: auot;
+    margin: auto;
+}
+
+.feature_image {
+    border: 2px solid #ddd;
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    margin: 23px 8px;
+    height: 214px;
+    float: left;
+    background-color: #f8f5f5;
+}
+
+.feature_image img {
+    width: 66%;
+    height: 118px;
+    border-radius: 100px;
+    padding: 21px;
+}
+
+.feature_image h3 {
+    
+width: 126px;
+    
+text-align: center;
+    
+margin: auto;
+    
+padding: 1px 4px 5px 3px;
+    
+color: #008000e6;
+    
+background: #C7ACB5;
+    
+border-radius: 6px;
+    
+margin-top: 9px;
+    
+font-weight: revert;
+    
+font-family: cursive;
+}
+.sliderr{
+
+    background:white;
+}
+
+.product_one {
+    overflow: hidden;
+    width:100%;
+    margin-top:78px;
+}
+
+.product_one h1 {
+    width: 412px;
+    margin: auto;
+    font-size: 48px;
+    color: #473a3a;
+    font-family: arial balck;
+}
+
+.product_one p {
+    width: 324px;
+    margin: auto;
+    font-size: 19px;
+    color: #938a8a;
+    margin-top: 5px;
+}
+
+.product_details {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 11px;
+    background: #f6f6f6;
+    float: left;
+    margin-left: 13px;
+    margin-top: 63px;
+    margin-top: 25px;
+}
+
+.product_details img {
+    border-radius: 13px;
+    width: 91%;
+    color: #aa2e2e;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.product_main_details {
+    width: 100%;
+    padding: 0px 12px;
+}
+
+.product_main_details span {
+    color: #a9a2a2;
+}
+
+.product_main_details h2 {
+    font-size: 17px;
+    padding: 0px;
+    margin-top: 7px;
+    font-family: cursive;
+    margin-bottom: 6px;
+}
+
+.font_awesome i {
+    color: orange;
+    margin-top: 1px;
+}
+
+.font_awesome {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.product_main_details p {
+    color: #7f7171;
+    font-weight: 700;
+}
+
+.shop_font {
+    width: 20px;
+    float: right;
+    margin: -33px 39px;
+    font-size: 23px;
+    color: #ff8d00;
+}
+
+.product_details:hover {box-shadow: 40px 50px 51px rgb(29 29 26 / 3%);
+cursor:pointer;}
+.feature_image:hover {
+    cursor: pointer;
+}
+
+.discunt{
+
+background:url(image/back.jpg);
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+background-position: center;
+}
+
+
+.discunt_product {
+    color: white;
+    width: 771px;
+    margin: auto;
+    padding: 27px 0px;
+    text-align: center;
+}
+
+
+
+.discunt_product h5 {
+    font-size: 13px;
+    font-family: arial black;
+}
+
+.discunt_product h1 {
+    font-size: 40px;
+    font-family: arial;
+    color: #efe8e8;
+}
+
+.discunt_product h1 span {
+    color: #ae3838;
+}
+
+.discunt_product {
+    color: white;
+    width: 771px;
+    margin: auto;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+
+
+.discunt_product h5 {
+   
+   
+    font-size: 14px;
+    font-family: system-ui;
+    margin-bottom: -21px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #e7dfdf;
+}
+
+.discunt_product h1 {
+    font-size: 40px;
+    font-family: arial;
+    color: #efe8e8;
+    margin-bottom:21px;
+}
+
+.discunt_product h1 span {
+    color: #ae3838;
+}
+
+.discunt_product button {
+    padding: 10px 13px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: initial;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.discunt_product button:hover {
+    color: white;
+    background: green;
+    transition: 0.4s;
+    cursor:pointer;
+}
+.product_one h4 {
+    width: 342px;
+    font-size: 48px;
+    margin: auto;
+    margin-top: 24px;
+    font-family: arial black;
+    color: #4b4242;
+}
+
+.baner{
+    background:url(image/woman.webp);
+    background-repeat: no-repeat;
+    width: 552px;
+    padding: 65px 44px 10px 18px;
+    background-size: cover;
+    height: 274px;
+    float: left;
+    margin-left: 26px;
+    border: 2px solid #aca6a6;
+    border-radius: 4px;
+}
+
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+.baner h3 {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #f7f5f5;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0;
+}
+
+.baner h1 {
+    color: #eee7e7;
+    font-family: arial;
+    font-size: 34px;
+    margin: 1px;
+    font-weight: bold;
+}
+
+.baner p {
+    color: #ddd;
+    font-size: 18px;
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.baner button {
+    border: none;
+    padding: 11px 19px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 28px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.baner:hover button {
+    color: white;
+    background: #0C7F76;
+    transition: 0.5s;
+}
+
+#banner{
+    background:url(image/mantshirt.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#banner button {
+    background: none;
+    border: 3px solid #4f92a4;
+}
+
+.baner_shop_season1{
+    background:url(image/manshop1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 373px;
+    overflow: hidden;
+    float: left;
+    padding: 13px;
+    margin-left: 29px;
+    margin-top: 41px;
+    height: 153px;
+}
+
+.baner_shop_season1 h2 {
+    color: white;
+    font-size: 32px;
+    margin-left: 12px;
+    font-family: arial;
+    text-transform: inherit;
+    margin-bottom: -9px;
+    font-weight: revert;
+}
+
+.baner_shop_season1 p {
+    color: #f88888;
+    font-size: 15px;
+    font-family: arial black;
+    font-weight: 700;
+}
+
+
+
+
+
+.baner_shop_season2{
+    background:url(image/manshop2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 373px;
+    overflow: hidden;
+    float: left;
+    padding: 13px;
+    margin-left: 29px;
+    margin-top: 41px;
+    height: 153px;
+}
+
+.baner_shop_season2 h2 {
+    color: white;
+    font-size: 32px;
+    margin-left: 12px;
+    font-family: arial;
+    text-transform: inherit;
+    margin-bottom: -9px;
+    font-weight: revert;
+}
+
+.baner_shop_season2 p {
+   
+    color: #f88888;
+ font-size: 15px;
+ font-family: arial black;
+ font-weight: 700;
+   
+}
+
+
+
+
+.baner_shop_season3{
+    background:url(image/manshop3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 373px;
+    overflow: hidden;
+    float: left;
+    padding: 13px;
+    margin-left: 29px;
+    margin-top: 41px;
+    height: 153px;
+}
+
+.baner_shop_season3 h2 {
+    color: white;
+    font-size: 32px;
+    margin-left: 12px;
+    font-family: arial;
+    text-transform: inherit;
+    margin-bottom: -9px;
+    font-weight: revert;
+}
+
+.baner_shop_season3 p {
+    
+    color: #f88888;
+    font-size: 15px;
+    font-family: arial black;
+    font-weight: 700;
+    
+}
+
+
+
+section.full_main_baner {
+    width: 100%;
+    overflow: hidden;
+}
+
+section.main_shop_season {
+    width: 100%;
+    overflow: hidden;
+}
+
+.product_signup{
+
+background:url(image/signupimage.jpg);
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+margin: 52px 0;
+}
+
+section.full_main_baner {
+    width: 100%;
+    overflow: hidden;
+}
+
+section.main_shop_season {
+    width: 100%;
+    overflow: hidden;
+}
+
+.singup {
+    overflow: hidden;
+    padding: 22px 1px 42px 7px;
+}
+
+.left_signup {
+    width: 508px;
+    color: white;
+    float: left;
+}
+
+.left_signup h3 {
+    font-size: 28px;
+    font-family: arial;
+    margin-bottom: -6px;
+    margin-top: 0px;
+}
+
+.left_signup p {
+    font-size: 16px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.left_signup p a {
+    text-decoration: none;
+    color: #bc9243;
+    font-family: unset;
+    font-weight: 700;
+}
+.right_signup {
+    width: 500px;
+    float: right;
+    padding: 10px;
+}
+
+.right_signup input {
+    width: 300px;
+    border: none;
+    border-radius: 6px;
+    padding: 13px 16px;
+    margin-left: -67px;
+    outline:none;
+}
+
+.right_signup button {
+    padding: 12px 22px;
+    margin-left: -59px;
+    border: none;
+    color: white;
+    background: green;
+    border-radius: 2px;
+    border: 1px solid #509f46;
+    font-family: arial;
+    overflow: hidden;
+}
+
+.footer_contact {
+    width: 465px;
+    overflow: hidden;
+    float:left;
+}
+
+.footer_logo {
+    width: 83px;
+}
+
+.footer_logo img {
+    width: 100%;
+}
+
+.footer_contact h5 {
+    font-size: 21px;
+    margin: 16px 0px;
+    font-family: arial;
+    color: #4e4444;
+    font-weight: 600;
+}
+
+.footer_contact h2 {
+    font-size: 18px;
+    font-family: arial,serif;
+    color: #978d8d;
+    margin: 5px 0px;
+    font-weight: inherit;
+}
+
+.footer_contact h2 span {
+    color: #8f7979;
+    font-family: unset;
+    font-weight: 700;
+}
+
+.footer_followus h1 {
+    font-size: 23px;
+    margin: 8px 0px;
+    color: #736262;
+}
+
+.footer_followus a {
+    font-size: 19px;
+    color: #464444;
+}
+
+
+.footer_about {
+    width: 226px;
+    overflow: hidden;
+    float: left;
+}
+
+.footer_about h2 {
+    font-size: 24px;
+    font-family: oswald,arial;
+    color: #685858;
+}
+
+.footer_about a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: arial,serif;
+    color: #978d8d;
+    float: left;
+    margin: 6px 0px;
+}
+
+
+.footer_accound {
+    width: 149px;
+    overflow: hidden;
+    float: left;
+}
+
+.footer_accound h2 {
+    font-size: 24px;
+    font-family: oswald,arial;
+    color: #685858;
+}
+
+.footer_accound a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: arial,serif;
+    color: #978d8d;
+    float: left;
+    margin: 6px 0px;
+}
+.footer_apps_installing {
+    float: right;
+    width: 324px;
+    overflow: hidden;
+}
+
+.footer_apps_installing h2 {
+    font-size: 24px;
+    font-family: oswald,arial;
+    color: #5c5656;
+}
+
+.footer_apps_installing p {
+    font-size: 17px;
+    font-family: arial;
+    color: #978989;
+}
+
+.footer_apps_installing button {
+    border: none;
+    width: 110px;
+    background: none;
+    /* border: 1px solid #77be92; */
+    padding: 9px 0px;
+    background: orange;
+    border-radius: 6px;
+}
+
+.footer_apps_installing button a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-family: arial,oswald;
+    text-align: left;
+    padding: 1px;
+    color: white;
+}
+
+.footer_apps_installing h1 {
+    color: #2843e9;
+    float: left;
+    margin: 0px;
+    font-family: oswald,ui-sans-serif;
+}
+
+
+
+.footer_apps_installing a {
+    font-size: 38px;
+    padding: 13px 7px;
+}
+
+footer.footer\.datials {
+    width: 100%;
+    overflow: hidden;
+}
+
+.copyrightcontant {
+    width: 500px;
+    margin: auto;
+    font-size: 16px;
+    color: #736767;
+    margin-top: 25px;
+}
+.bars {
+    
+    display: table-column;
+}
+
+
+section.pro_datails {
+    width: 100%;
+    overflow: hidden;
+}
+
+.left_pro_datails {
+    background: gainsboro;
+    width: 591px;
+    overflow: hidden;
+    padding: 15px;
+    border: 1px solid #cebdbd;
+    margin-top: 76px;
+    border-radius: 5px;
+    float: left;
+}
+
+.left_pro_datails img {
+    border-radius: 5px;
+    width: 590px;
+    margin: auto;
+    margin-left: 0px;
+    padding: 4px;
+}
+
+.down_pro img {
+    width: 186px;
+    height: 114px;
+}
+.product_datials_wraper {
+    width: 500px;
+    float: left;
+    padding: 70px;
+}
+
+.product_datials_wraper p {
+    font-size: 17px;
+    font-family: serif;
+}
+
+.product_datials_wraper h1 {
+    font-size: 27px;
+    font-family: system-ui;
+    color: #473f3f;
+    margin: 11px 0px;
+}
+
+.product_datials_wraper span {
+    width: 443px;
+    font-size: 24px;
+    overflow: hidden;
+    color: green;
+    font-weight: 700;
+    float: left;
+}
+
+.product_datials_wraper button {
+    font-size: 17px;
+    padding: 10px;
+    font-family: arial,oswald;
+    font-weight: 700;
+    color: white;
+    background: green;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+p.details_produ {
+    font-size: 19px;
+    color: #8f8585;
+    font-family: initial;
+    border: 1px solid #fff4f4;
+    padding: 15px;
+    border-radius: 7px;
+}
